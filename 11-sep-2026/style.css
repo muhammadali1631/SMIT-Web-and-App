@@ -1,3 +1,28 @@
-h1{
+.prod-card {
+    width: 25%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prod-card .prod-image{
+    width: 100%;
+}
+
+.prod-card .prod-title{
+    margin: 5px 0px;
+}
+
+.prod-card .prod-price{
+    margin: 5px 0px;
+}
+
+
+.prod-card .add-to-card-btn{
+    border: none;
     background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
 }
