@@ -1,0 +1,396 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  width: 100%;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background: white;
+}
+
+.external-links-and-search {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+}
+.external-links-and-search .links {
+  display: flex;
+  gap: 20px;
+  height: 20px;
+  padding: 5px 0px;
+}
+.external-links-and-search .links .link-one,
+.external-links-and-search .links .link-two {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-right: 2px solid gray;
+  padding-right: 10px;
+}
+
+.external-links-and-search .links .link-two {
+  border: none;
+}
+
+.external-links-and-search .search-bar {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.external-links-and-search .search-bar input {
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  width: 50px;
+}
+
+.nav-links-and-logo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links-and-logo nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+main {
+  background: #424242 url("./assets/images/body_bg.png");
+  height: 100%;
+  width: 100%;
+  /* padding: 50px 0; */
+  padding-top: 50px;
+}
+
+main .white {
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
+  /* padding: 50px 0px; */
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.white .cards-section {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+}
+.cards-section .first-three-card {
+  width: 600px;
+}
+.cards-section .first-three-card .card-one {
+  border-radius: 5px;
+  color: #fff;
+  background-color: #313131;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cards-section .first-three-card .card-one img {
+  width: 100%;
+}
+
+.cards-section .first-three-card .card-one h2 {
+  margin: 10px 0px;
+  padding: 0 10px;
+}
+
+.cards-section .first-three-card .card-one .para-with-image {
+  padding: 0 10px;
+
+  display: flex;
+}
+.cards-section .first-three-card .card-one .para-with-image img {
+  object-fit: contain;
+  height: 60px;
+  width: 50px;
+}
+
+.cards-section .first-three-card .bottom-two-cards {
+  width: 100%;
+  margin: 10px 0px;
+  display: flex;
+  gap: 10px;
+}
+.cards-section .first-three-card .bottom-two-cards .bottom-card-one,
+.cards-section .first-three-card .bottom-two-cards .bottom-card-two {
+  width: 50%;
+  background-color: #483f31;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cards-section .first-three-card .bottom-two-cards .bottom-card-two {
+  background-color: #1847d7;
+}
+
+.cards-section .first-three-card .bottom-two-cards .bottom-card-one img,
+.cards-section .first-three-card .bottom-two-cards .bottom-card-two img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.cards-section .first-three-card .bottom-two-cards .bottom-card-one h2,
+.cards-section .first-three-card .bottom-two-cards .bottom-card-two h2 {
+  padding: 15px;
+}
+
+.vertical-three-card {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  gap: 10px;
+}
+.vertical-three-card .card-one,
+.vertical-three-card .card-two,
+.vertical-three-card .card-three {
+  width: 100%;
+  background-color: #734BB2;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+.vertical-three-card .card-one img,
+.vertical-three-card .card-three img {
+  width: 100%;
+  object-fit: contain;
+}
+.vertical-three-card .card-one h2,
+.vertical-three-card .card-three h2{
+    padding: 15px;
+}
+
+
+.vertical-three-card .card-two {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #DAA31C;
+}
+
+.vertical-three-card .card-two img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.vertical-three-card .card-two h2{
+    padding: 15px;
+}
+
+.vertical-three-card .card-three {
+    background-color: #1B82B1;
+}
+
+.featured-pokemon{
+    width: 900px;
+    margin: 0px auto;
+    color: white;
+    padding-bottom: 20px;
+}
+.featured-pokemon h2{
+    background-color: #232323;
+    width: 230px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.featured-card{
+    display: flex ;
+    justify-content: center;
+}
+
+.featured-card .card{
+    background-color: #313131;
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    border: 2px solid #313131;
+}
+.featured-card .card img{
+    background-color: gray;
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+}
+.featured-card .card  h3{
+
+    padding: 20px;
+}
+
+
+.featured-card .featured-card-three{
+    height: 400px;
+    width: 300px;
+}
+.featured-card .featured-card-three h3{
+    display: flex;
+    justify-content: space-between;
+}
+.featured-card .featured-card-three p{
+    display: flex;
+    width: 150px;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+.featured-card .featured-card-three p .green{
+    background-color: #9BCC50;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.second-card-section{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    gap: 10px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.second-card-section .veritcal-boxes
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+.second-card-section .first-vertical-boxes .card-one{
+    background-color: #1847D7;
+}
+
+.second-card-section .first-vertical-boxes .card-two{
+    background-color: #8B8B8B;
+}
+
+.second-card-section .second-vertical-boxes .card-three{
+    background-color: #734BB2;
+}
+.second-card-section .second-vertical-boxes .card-four{
+    background-color: #FF2A8E;
+}
+.second-card-section .third-vertical-boxes .card-five{
+    background-color: #DAA31C;
+}
+
+.second-card-section .third-vertical-boxes .card-six{
+    background-color: #282828;
+}
+
+.second-card-section .veritcal-boxes .vertical-card{
+
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.second-card-section .veritcal-boxes .vertical-card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.second-card-section .veritcal-boxes .vertical-card h3,
+.second-card-section .veritcal-boxes .vertical-card  p{
+
+    padding: 5px 10px;
+}
+
+.second-vertical-boxes h4{
+    color: gray;
+    font-size: 30px;
+}
+
+
+footer .email-and-forum{
+     border-top: 1px solid gray;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+footer .email-and-forum .contact-related{
+    display: flex ;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    /* height: 10px; */
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+footer .email-and-forum .email{
+    background-color: #A4DDF1;
+}
+footer .email-and-forum .forum{
+    background-color: #FFBF00;
+}
+
+footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+footer .content ul {
+    list-style: none;
+}
+footer .content ul li{
+    margin: 10px 0px;
+}
+    
+
+
+footer .content ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+footer .content .social nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+footer .bring-to-top{
+    background-color:#E2EDF7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    height: 80px;
+    align-items: center;
+
+}
+
+footer .black-bar{
+    display: flex ;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+}
+ 
+footer .black-bar nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 0 5px;
+}
+
+footer .black-bar p{
+    color: white;
+}
+

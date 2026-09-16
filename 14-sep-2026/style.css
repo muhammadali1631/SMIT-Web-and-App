@@ -1,0 +1,74 @@
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+.colors .rgba-rgb{
+    background-color: rgba(100,100,90, 0.5);
+    color: rgb(50, 70, 30);
+}
+
+.colors .hex-color-name{
+    background-color: #a780a0;
+    color: red;
+}
+
+.text-properties .text{
+    text-decoration: overline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.position{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid red;
+    position: relative;
+    border-radius: 29px;
+}
+
+.position .ball-one{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.position .ball-two{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.position .ball-three{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.position .ball-four{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

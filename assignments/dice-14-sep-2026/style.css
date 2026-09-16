@@ -1,0 +1,150 @@
+*{
+    background-color: rgb(112, 112, 98);
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 400px;
+    margin: auto;
+}
+.dice{
+    background-color: #FDFDFD;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.dice-number{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+
+/* First Dice */
+.dice-one .dice-child-first{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+/* Second Dice */
+
+.dice-two .dice-child-first{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.dice-two .dice-child-second{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Third Dice */
+.dice-three .dice-child-first{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.dice-three .dice-child-second{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.dice-three .dice-child-third{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* Fourth Dice */
+.dice-four .dice-child-first{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dice-four .dice-child-second{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.dice-four .dice-child-third{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.dice-four .dice-child-fourth{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fifth Dice */
+.dice-five .dice-child-first{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dice-five .dice-child-second{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.dice-five .dice-child-third{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.dice-five .dice-child-fourth{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.dice-five .dice-child-fifth{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Sixth Dice */
+.dice-six .dice-child-first{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.dice-six .dice-child-second{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.dice-six .dice-child-third{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.dice-six .dice-child-fourth{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.dice-six .dice-child-fifth{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.dice-six .dice-child-sixth{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
