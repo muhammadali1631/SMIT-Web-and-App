@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lowercase{
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
+.serif-font{
+    font-family: serif;
+}
+.san-serif-font{
+    font-family: sans-serif;
+}
+
+.heading{
+    font-weight: normal;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+.para{
+    font-size: 32px;
+    font-weight: normal;
+    color: blue;
+    line-height: 60px;
+}
+.text-lorem{
+    word-spacing: 40px;
+    letter-spacing: 10px;
+
+}
+
+p.text-lorem:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text-lorem-one{
+    text-decoration: underline;
+    font-style: italic;
+    cursor: progress;
+    text-align: center;
+}
