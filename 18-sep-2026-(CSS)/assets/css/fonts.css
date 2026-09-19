@@ -1,0 +1,20 @@
+@font-face {
+  font-family: cricket-font;
+  src: url("../fonts/cricket-font/Cricket.ttf");
+}
+
+@font-face {
+  font-family: bold-grovy;
+  src: url("../fonts/bold-grovy/Bold\ Groovy\ Monoline.ttf");
+}
+
+.bold-grovy-font{
+    font-family: bold-grovy;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.cricket-font {
+  font-family: cricket-font;
+  font-size: 50px;
+}

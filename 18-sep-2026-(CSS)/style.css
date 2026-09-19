@@ -1,0 +1,21 @@
+@import url(./assets/css/fonts.css);
+
+.list{
+    margin: 0px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.square{
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+}
+.display-flex{
+    border: 1px solid blue;
+    gap: 10px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}

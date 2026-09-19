@@ -1,0 +1,24 @@
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    width: 640px;
+    margin: 0 auto;
+}
+
+.light-blue{
+    background-color: lightblue;
+    height: 80px;
+    width: 80px;
+}
+.blue{
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
