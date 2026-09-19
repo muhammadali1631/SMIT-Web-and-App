@@ -30,7 +30,11 @@ header {
   border-right: 2px solid gray;
   padding-right: 10px;
 }
-
+.external-links-and-search .links .link-one:hover,
+.external-links-and-search .links .link-two:hover{
+  color: blue;
+  cursor: pointer;
+}
 .external-links-and-search .links .link-two {
   border: none;
 }
@@ -48,6 +52,9 @@ header {
   background-color: #f5f5f5;
   width: 50px;
 }
+.external-links-and-search .search-bar input:focus{
+  width: 100px;
+}
 
 .nav-links-and-logo {
   display: flex;
@@ -61,6 +68,9 @@ header {
   text-decoration: none;
   color: black;
   font-weight: 800;
+}
+.nav-links-and-logo nav a:hover{
+  color: blue;
 }
 
 main {
@@ -95,6 +105,9 @@ main .white {
   background-color: #313131;
   width: 100%;
   overflow: hidden;
+}
+.hover-anim:hover {
+  scale: 1.01;
 }
 
 .cards-section .first-three-card .card-one img {
@@ -321,6 +334,7 @@ footer .email-and-forum{
     display: flex;
     justify-content: center;
     gap: 50px;
+
 }
 footer .email-and-forum .contact-related{
     display: flex ;
@@ -330,6 +344,7 @@ footer .email-and-forum .contact-related{
     /* height: 10px; */
     border-radius: 10px;
     justify-content: space-between;
+    padding: 10px;
 
 }
 footer .email-and-forum .email{
@@ -358,6 +373,11 @@ footer .content ul li a{
     color: black;
     font-weight: 700;
     
+}
+
+
+footer .content ul li a:hover{
+  color: blue;
 }
 footer .content .social nav{
     display: flex;
