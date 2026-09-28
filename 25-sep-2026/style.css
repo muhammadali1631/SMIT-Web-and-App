@@ -1,0 +1,48 @@
+
+.box-content{
+    border: 2px solid red;
+    /* height: 150px; */
+    min-height: 150px;
+    max-height: 300px;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    overflow-y: scroll;
+}
+
+.prod-table{
+    border: 1px solid red;
+}
+
+.prod-table tr td{
+    border: 1px solid blue;
+}
+
+.prod-table .desc-holder{
+    /* width: 100px; */
+    min-width: 200px;
+    max-width: 400px;
+    overflow-x: scroll;
+}
+
+span{
+    border: 1px solid green;
+    width: 100px;
+    /* display: block; */
+}
+.box{
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    margin: 30px;
+    padding: 10px;
+}
+.para-m-p{
+    margin: 20px;
+    border: 1px solid green;
+    padding: 20px 10px;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px; */
+}
