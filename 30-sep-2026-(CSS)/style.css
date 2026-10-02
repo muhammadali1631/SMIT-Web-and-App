@@ -1,0 +1,28 @@
+.box {
+  background-color: aqua;
+  border: 2px solid blue;
+}
+.color {
+  color: #ff0000;
+}
+
+* {
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.box-4{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
