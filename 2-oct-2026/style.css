@@ -1,0 +1,52 @@
+.un-or {
+  border: 1px solid red;
+  list-style-image: url("./assets/images/sqpurple.gif");
+}
+
+.un-or li {
+  border: 1px solid blue;
+}
+
+.data-grid {
+  border: 1px solid red;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-grid tr {
+  border-bottom: 1px solid blue;
+  background-color: aliceblue;
+}
+.data-grid tr:hover {
+  background-color: antiquewhite;
+}
+
+.data-grid td {
+  /* border: 1px solid green; */
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+table.one td {
+  border: 1px solid #0088dd;
+  padding: 15px;
+}
+table.one {
+  empty-cells: hide;
+  border-collapse: separate;
+  border-spacing: 10px 30px;
+}
+
+
+.input-with-icon{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.input-with-icon input{
+    outline: none;
+    border: none;
+}
